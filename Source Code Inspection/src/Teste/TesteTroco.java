@@ -8,7 +8,7 @@ import br.calebe.ticketmachine.core.*;
 
 /**
  *
- * @author 31207782
+ * @author 31207782 dsfsdf
  */
 public class TesteTroco {
     
