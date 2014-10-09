@@ -42,12 +42,13 @@ public class PapelMoedaTest {
     @Test
     public void testGetValor() {
         System.out.println("getValor");
-        PapelMoeda instance = null;
+        PapelMoeda instance = new PapelMoeda(0,0);
         int expResult = 0;
-        int result = instance.getValor();
+        //instance.getValor()
+        int result = instance.getValor() ;
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+//        fail("The test case is a prototype.");
     }
 
     /**
@@ -56,11 +57,12 @@ public class PapelMoedaTest {
     @Test
     public void testGetQuantidade() {
         System.out.println("getQuantidade");
-        PapelMoeda instance = null;
+        PapelMoeda instance = new PapelMoeda(0,0);;
         int expResult = 0;
+        //instance.getQuantidade()
         int result = instance.getQuantidade();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+     //   fail("The test case is a prototype.");
     }
 }

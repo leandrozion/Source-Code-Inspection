@@ -44,10 +44,10 @@ public class TicketMachineTest {
     public void testInserir() throws Exception {
         System.out.println("inserir");
         int quantia = 0;
-        TicketMachine instance = null;
+        TicketMachine instance = new TicketMachine(0);
         instance.inserir(10);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+   //     fail("The test case is a prototype.");
     }
 
     /**
@@ -56,12 +56,12 @@ public class TicketMachineTest {
     @Test
     public void testGetSaldo() {
         System.out.println("getSaldo");
-        TicketMachine instance = null;
+        TicketMachine instance = new TicketMachine(0);
         int expResult = 0;
         int result = instance.getSaldo();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      //  fail("The test case is a prototype.");
     }
 
     /**
@@ -70,12 +70,12 @@ public class TicketMachineTest {
     @Test
     public void testGetTroco() {
         System.out.println("getTroco");
-        TicketMachine instance = null;
+        TicketMachine instance = new TicketMachine(0);
         Iterator expResult = null;
         Iterator result = instance.getTroco();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    //    fail("The test case is a prototype.");
     }
 
     /**
@@ -84,11 +84,13 @@ public class TicketMachineTest {
     @Test
     public void testImprimir() throws Exception {
         System.out.println("imprimir");
-        TicketMachine instance = null;
-        String expResult = "";
+        TicketMachine instance = new TicketMachine(0);
+        String expResult = "*****************\n";
+        expResult += "*** R$ " + 0 + ",00 ****\n";
+        expResult += "*****************\n";
         String result = instance.imprimir();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      //  fail("The test case is a prototype.");
     }
 }

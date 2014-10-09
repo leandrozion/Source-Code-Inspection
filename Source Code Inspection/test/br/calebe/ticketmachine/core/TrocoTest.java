@@ -43,12 +43,12 @@ public class TrocoTest {
     @Test
     public void testGetIterator() {
         System.out.println("getIterator");
-        Troco instance = null;
-        Iterator expResult = null;
+        Troco instance = new Troco(0);
+        Iterator expResult = instance.getIterator() ;
         Iterator result = instance.getIterator();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+      //  fail("The test case is a prototype.");
     }
     
     
