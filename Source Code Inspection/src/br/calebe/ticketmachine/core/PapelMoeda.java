@@ -5,7 +5,9 @@ package br.calebe.ticketmachine.core;
  * @author Calebe de Paula Bianchini
  */
 public class PapelMoeda {
-
+/**
+ * fdsgfs
+ */
     protected int valor = 0;
     protected int quantidade = 0;
 
